@@ -38,11 +38,11 @@ In the _About me_ section I tell about myself, used some css properties to make 
 
 ## Visuals
 
-![Screenshot of portfolio-about](../Professional_portfolio/assets/images/images_for-README/portfolio-about.png)
+![Screenshot of portfolio-about](../assets/images/images_for-README/portfolio-about.png)
 
-![Screenshot of portfolio-about](../Professional_portfolio/assets/images/images_for-README/portfolio-projects.png)
+![Screenshot of portfolio-about](../assets/images/images_for-README/portfolio-projects.png)
 
-![Screenshot of portfolio-about](../Professional_portfolio/assets/images/images_for-README/portfolio-contact.png)
+![Screenshot of portfolio-about](..git/assets/images/images_for-README/portfolio-contact.png)
 
 # A link to the [Professional portfolio](https://anastasiia-ciloci.github.io/Professional_portfolio/)
 
