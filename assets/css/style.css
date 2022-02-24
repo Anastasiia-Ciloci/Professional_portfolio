@@ -1,0 +1,218 @@
+body {
+  font-size: 1.35rem;
+  margin: 0;
+  padding: 0;
+  color: rgb(13, 38, 42);
+  background-color: rgba(221, 219, 216, 0.966);
+}
+/*Typography*/
+h1 {
+  font-size: 36px;
+  color: #adb6c4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 abbr {
+  color: aquamarine;
+  text-decoration: none;
+}
+h2 {
+  font-size: 1.9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.3rem;
+}
+/*header*/
+
+header {
+  position: fixed;
+  margin-top: -3%;
+  width: 100%;
+  background-color: #001b2e;
+  z-index: 1;
+}
+header h1 {
+  display: inline-block;
+  padding-left: 40px;
+}
+
+header nav {
+  padding-top: 2%;
+  padding-right: 10%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  float: right;
+}
+nav a {
+  text-decoration: none;
+  margin: 25px;
+  color: #adb6c4;
+  transition: all 243ms ease;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+nav a:hover {
+  background-color: rgb(136, 122, 122);
+  color: #f9fbfd;
+}
+
+/*layout main */
+
+div .spacer-1,
+div .spacer-2,
+div .spacer-3 {
+  height: 80px;
+}
+
+#main-img {
+  max-width: 100%;
+  border-radius: 50%;
+  margin: 60px 60px;
+}
+
+.main-prg {
+  margin: 3% 5% 3% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+hr {
+  height: 2%;
+  width: 50%;
+}
+div main {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  margin: 2% 13%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(143, 160, 172, 0.418),
+    rgba(150, 216, 194, 0.65),
+    rgba(42, 33, 63, 0.445)
+  );
+  border-radius: 5px;
+  box-shadow: 40px, 50px, #80808050;
+}
+
+main .info {
+  padding: 2% 3%;
+}
+main .left {
+  width: 70%;
+}
+
+/*Project section layout*/
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: space-evenly;
+  position: static;
+  width: 70%;
+}
+#project-1,
+#project-2,
+#project-3,
+#project-4 {
+  margin-bottom: 20px;
+  height: 250px;
+  width: 30%;
+  border: 5px solid rgb(114, 132, 172);
+  text-decoration: none;
+}
+#project-1 {
+  background-image: url("../images/project images/pexels-fauxels-3184638.jpg");
+  width: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#project-2 {
+  background-image: url("../images/project images/pexels-karolina-grabowska-4467735.jpg");
+}
+#project-1 .name-bars {
+  width: 30% !important;
+}
+#project-4 {
+  background-image: url("../images/project images/pexels-mikhail-nilov-9159409.jpg");
+}
+#project-3 {
+  background-image: url("../images/project images/pexels-pixabay-27040.jpg");
+}
+#project-1:hover,
+#project-2:hover,
+#project-3:hover,
+#project-4:hover {
+  opacity: 0.7;
+  transition: all 250ms ease;
+}
+
+.name-bars {
+  color: rgb(251, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid #7284aca2;
+  background-color: #7284aca2;
+  width: 50%;
+  position: static;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+/*contact section*/
+.contact {
+  width: 20%;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding-left: 40%;
+}
+
+.contact-icon img {
+  height: 40px;
+}
+.contact-icon img:hover {
+  height: 50px;
+  background-color: #adb6c4;
+  border-radius: 5px;
+  transition: all 250ms ease-in-out;
+  transform: translateY(-3px);
+}
+.contact-icon {
+  width: 50px;
+}
+/*footer*/
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #001b2e;
+}
+
+footer h3 {
+  padding-top: 1.5%;
+  text-align: center;
+  color: #adb6c4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*media-query*/
+@media screen and (max-width: 1116px) {
+  div main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
