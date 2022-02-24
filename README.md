@@ -2,42 +2,48 @@
 
 ## Table of content:
 
-1. Description
-2. Visuals
+1. [Description](#description)
+2. [Visuals](#visuals)
 3. A [link](https://anastasiia-ciloci.github.io/Professional_portfolio/) to my portfolio
 
 # Description
 
-Here is the professional portfolio. I've optimized HTML, modified code by changing div tags to the semantic elements.
+Here is the professional portfolio. The page consists of three main sections: _About me_, _Projects_and \_Contact_ It has a fixed navigation bar with hyperlinks to the sections about them.
+In the _About me_ section I tell about myself, used some css properties to make a profile picture round and added gradient background on the main div.
+
+- Using a pseudo-classes in my css I created an effect when you hover over icons at the contact section and it changes their size.
 
 ```
- <div class="hero"></div>
-    <div class="content">
-```
-
-```
-<section class="hero"></section>
-    <main class="content">
-```
-
-Checked all the links work correctly, also increased the efficiency of the CSS by consolidating the selectors and properties, organized them to follow the semantic structure of the HTML elements, and left comments on changes.
-
-```
-.header h1 .seo {
-    color: #d9dcd6;
+.contact-icon img:hover {
+  height: 50px;
+  background-color: #adb6c4;
+  border-radius: 5px;
+  transition: all 250ms ease-in-out;
+  transform: translateY(-3px);
 }
 ```
 
+- Using media query I built a responsive layout
+
 ```
-.header h1 abbr {
-  color: #d9dcd6;
+@media screen and (max-width: 1116px) {
+  div main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
 ```
 
 ## Visuals
 
-![Screenshot of SEO web page](01-html-css-git-homework-demo.png)
+![Screenshot of portfolio-about](../Professional_portfolio/assets/images/images_for-README/portfolio-about.png)
 
-# A link to the website [Horiseon Website](https://anastasiia-ciloci.github.io/hometask-1-SEO/)
+![Screenshot of portfolio-about](../Professional_portfolio/assets/images/images_for-README/portfolio-projects.png)
 
-Or click [here](https://anastasiia-ciloci.github.io/hometask-1-SEO/) to open the website
+![Screenshot of portfolio-about](../Professional_portfolio/assets/images/images_for-README/portfolio-contact.png)
+
+# A link to the [Professional portfolio](https://anastasiia-ciloci.github.io/Professional_portfolio/)
+
+Or click [here](https://anastasiia-ciloci.github.io/Professional_portfolio/) to open the portfolio page.
